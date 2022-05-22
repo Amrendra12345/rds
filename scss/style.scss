@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+$bg-green:#759e2e;
+$bg_dark:#272e16;
+$bg_light:#f8f8f8;
+$bg_white:#fff;
+$bg_hover:#698735;
+$text-color:#555;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;  
+}
+.wrapper{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@import 'header';
+@import 'footer';
+@import 'resetPassword';
+@import 'chagepassword';
+@import 'services';
